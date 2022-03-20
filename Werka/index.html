@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fotografia okolicznościowa, reportaże" />
+    <meta name="keywords" content="Fotografia, wesele, ślub, zdjęcia" />
+    <meta name="author" content="Weronika Zarzycka" />
+    <link rel="icon" type="image/x-icon" href="/img/wfavicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ubuntu:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <title>Weronika Zarzycka Fotografia</title>
+  </head>
+
+  <body>
+    <div class="body-wrap">
+      <header class="header">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+          <ion-icon class="btn-icon" name="caret-up-outline"></ion-icon>
+        </button>
+        <nav class="nav-container">
+          <ul class="menu">
+            <li class="menu-option"><a href="#">Hello!</a></li>
+            <li class="menu-option"><a href="#about-me">O mnie</a></li>
+
+            <li class="menu-option"><a href="#gallery">Galeria</a></li>
+
+            <li class="menu-logo">
+              <img
+                class="logo"
+                src="img/logotyp.png"
+                alt="logotyp Weronika Zarzycka"
+              />
+            </li>
+            <li class="menu-option"><a href="#testimonials">Opinie</a></li>
+            <li class="menu-option"><a href="#cta">Oferta</a></li>
+            <li class="menu-option"><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobi-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobi-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <main class="container">
+        <section class="section-hello container">
+          <div class="hello-container container">
+            <div class="hello-txt-container">
+              <p class="hello-h1">Cześć,</p>
+              <p class="hello-h2">Jestem Weronika</p>
+              <p class="hello-txt">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur delectus animi nobis blanditiis rem accusantium
+                recusandae a soluta repudiandae voluptas, dolorem aspernatur
+                consectetur modi esse molestias est ex atque eos.
+              </p>
+            </div>
+            <div class="hello-container-right">right</div>
+          </div>
+        </section>
+
+        <section class="section-about container" id="about-me">
+          <div class="about-container">
+            <div class="about-txt">
+              <h2 class="about-h2">Poznajmy się!</h2>
+              <p class="about-txt">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+                nobis commodi vero quas velit ipsum quo accusamus ex soluta
+                assumenda quam laboriosam, et sed error tempore qui a cupiditate
+                inventore quasi. Ratione fugit suscipit voluptates distinctio
+                dignissimos deleniti facilis magnam doloribus, omnis a ullam at
+                eius ducimus veniam quam sint.
+              </p>
+            </div>
+            <div class="about-img-box">
+              <img
+                class="about-img"
+                src="img/camera.jpg"
+                alt="aparat fotograficzny na statywie"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="section-gallery" id="gallery">
+          <div class="break-heading container">
+            <h2 class="break-heading-h2">— Moje Prace —</h2>
+          </div>
+
+          <div class="gallery-grid container">
+            <div class="gallery-grid-small">
+              <figure class="gallery-grid-small-img">
+                <img
+                  class="gallery-img-test"
+                  src="img/gallery/1.jpg"
+                  alt="Fotografia pary przy czerwonym maluchu w świątecznym klimacie"
+                />
+                <h2 class="img-description">Sesje świąteczne</h2>
+              </figure>
+              <figure class="gallery-grid-small-img">
+                <img
+                  src="img/gallery/2.jpg"
+                  alt="fotogrfia kobiety w sukience z pękiem balonów"
+                />
+                <h2 class="img-description">Sesje okazjonalne</h2>
+              </figure>
+              <figure class="gallery-grid-small-img">
+                <img
+                  src="img/gallery/3.jpg"
+                  alt="ślubny plener pary na tle jeziora"
+                />
+                <h2 class="img-description">Sesje plenerowe</h2>
+              </figure>
+              <figure class="gallery-grid-small-img">
+                <img src="img/gallery/5.jpg" alt="para ślubna" />
+                <h2 class="img-description">Śluby</h2>
+              </figure>
+              <figure class="gallery-grid-small-img horizontal">
+                <img src="img/gallery/4.jpg" alt="ludzie tańczący na weselu" />
+                <h2 class="img-description">Wesela</h2>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-testimonials container" id="testimonials">
+          <div class="break-heading container">
+            <h2 class="break-heading-h2">~ Zadowoleni Klienci ~</h2>
+          </div>
+          <div class="testimonials-container">
+            <div class="infographic">
+              <ion-icon
+                class="testimonial-icon"
+                name="happy-outline"
+              ></ion-icon>
+              <span class="inpfographic-number">200</span>
+              <p class="infographic-txt">
+                Zadowolonych <br />
+                Klientów
+              </p>
+            </div>
+            <div class="infographic">
+              <ion-icon
+                class="testimonial-icon"
+                name="camera-outline"
+              ></ion-icon>
+              <span class="inpfographic-number">20</span>
+              <p class="infographic-txt">
+                Zrealizowanych <br />
+                sesji
+              </p>
+            </div>
+            <div class="infographic">
+              <ion-icon
+                class="testimonial-icon"
+                name="thumbs-up-outline"
+              ></ion-icon>
+              <span class="inpfographic-number">1k</span>
+              <p class="infographic-txt">
+                Polubień <br />
+                Facebook
+              </p>
+            </div>
+            <div class="infographic">
+              <ion-icon
+                class="testimonial-icon"
+                name="chatbox-ellipses-outline"
+              ></ion-icon>
+              <span class="inpfographic-number">28</span>
+              <p class="infographic-txt">Opinii</p>
+            </div>
+          </div>
+
+          <div class="testimonials container">
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Werkak.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Justyna S.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Serdecznie polecam przemiłą panią fotograf. Miałyśmy
+                  przyjemność poznać się na chrzcie mojej córki, na którym udało
+                  jej się uchwycić niezapomniane dla nas momenty. Ma bardzo
+                  dobre podejście i do maluszków, i do rodziców, a także potrafi
+                  zadbać o dobre ustawienie gości. Przejmuje inicjatywę. Jest w
+                  pełni profesjonalistką, którą zawsze będę polecać.
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Marcelina.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Michalina T.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Profesjonalne podejście do zamówienia, zdjęcia wychodzą
+                  bajecznie, a sama Pani fotograf jest ciepła i przesympatyczna
+                  :) polecam z całego serca i na pewno nie raz będziemy
+                  korzystać z usług Weroniki
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Werkacta.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Emanuela C.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Werka to profesjonalistka ❤️ naprawdę podczas sesji można
+                  poczuć się bardzo swobodnie, pomaga aby rozluźnić się przed
+                  aparatem, a i pomysł jak całość ma wyglądać zawsze się
+                  sprawdzi. Polecam serdecznie przesympatyczną Panią Fotograf,
+                  napewno będę chciała jeszcze nie raz skorzystać z usług 🌸🥰
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Werkacta.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Justyna S.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Serdecznie polecam przemiłą panią fotograf. Miałyśmy
+                  przyjemność poznać się na chrzcie mojej córki, na którym udało
+                  jej się uchwycić niezapomniane dla nas momenty. Ma bardzo
+                  dobre podejście i do maluszków, i do rodziców, a także potrafi
+                  zadbać o dobre ustawienie gości. Przejmuje inicjatywę. Jest w
+                  pełni profesjonalistką, którą zawsze będę polecać.
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Werkacta.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Emanuela C.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Werka to profesjonalistka ❤️ naprawdę podczas sesji można
+                  poczuć się bardzo swobodnie, pomaga aby rozluźnić się przed
+                  aparatem, a i pomysł jak całość ma wyglądać zawsze się
+                  sprawdzi. Polecam serdecznie przesympatyczną Panią Fotograf,
+                  napewno będę chciała jeszcze nie raz skorzystać z usług 🌸🥰
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-author">
+                <img
+                  src="img/Werkacta.jpg"
+                  alt="fotografia kobieta z aparatem"
+                  class="testimonial-img"
+                />
+                <p class="testimonial-author">Emanuela C.</p>
+              </div>
+              <div class="testimonial-txt">
+                <p class="testimonial-txt">
+                  Werka to profesjonalistka ❤️ naprawdę podczas sesji można
+                  poczuć się bardzo swobodnie, pomaga aby rozluźnić się przed
+                  aparatem, a i pomysł jak całość ma wyglądać zawsze się
+                  sprawdzi. Polecam serdecznie przesympatyczną Panią Fotograf,
+                  napewno będę chciała jeszcze nie raz skorzystać z usług 🌸🥰
+                </p>
+                <ion-icon
+                  class="testimonial-txt-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-cta container" id="cta">
+          <div class="break-heading-cta">
+            <div class="cta-box">
+              <h3 class="cta-subheading">Pakiet podstawowy</h3>
+              <h2 class="cta-heading">Lorem, ipsum dolor</h2>
+
+              <ul class="cta-list">
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Ślub i wesele
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Chrzest
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Komunię
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Sesję narzeczeńską
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Wieczór panieński
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon>
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon>
+                </li>
+              </ul>
+
+              <a href="mailto:w.zarzycka.fotografia@gmail.com"
+                ><div class="cta-button cta-button-nh">Złap momenty!</div></a
+              >
+            </div>
+
+            <div class="cta-box cta-box-highlighted">
+              <h3 class="cta-subheading">Pakiet rozszerzony</h3>
+              <h2 class="cta-heading">Lorem, ipsum dolor</h2>
+
+              <ul class="cta-list">
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Ślub i wesele
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Chrzest
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Komunię
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Sesję narzeczeńską
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Wieczór panieński
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Sesje hobby
+                </li>
+                <li class="cta-list-item">
+                  <ion-icon
+                    class="cta-checkbox"
+                    name="checkbox-outline"
+                  ></ion-icon
+                  >Inne
+                </li>
+              </ul>
+
+              <a href="mailto:w.zarzycka.fotografia@gmail.com"
+                ><div class="cta-button cta-button-highlighted">
+                  Złap momenty!
+                </div></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="section-contact container" id="contact">
+          <div class="cta-contact-box">
+            <h2 class="cta-contact-heading-h2">
+              Masz pytania? <br />
+              Odezwij się!
+            </h2>
+            <div class="cta-contact-icons">
+              <a href="tel:123-456-7890"
+                ><ion-icon
+                  class="cta-contact-icon"
+                  name="call-outline"
+                ></ion-icon
+              ></a>
+              <a
+                href="mailto:w.zarzycka.fotografia@gmail.com?subject=Pytanie o sesję"
+                ><ion-icon
+                  class="cta-contact-icon"
+                  name="mail-outline"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="section-footer container">
+        <div class="footer-container container">
+          <div class="footer-grid">
+            <div class="footer-logo">
+              <a href="#"
+                ><img
+                  class="logo-footer"
+                  src="img/logotypft.png"
+                  alt="logotyp Weronika Zarzycka"
+                />
+              </a>
+            </div>
+
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/weronikazarzyckafotografia"
+                target="_blank"
+                class="btn-social-a"
+                ><ion-icon class="footer-icon" name="logo-facebook"></ion-icon
+              ></a>
+              <a
+                href="https://www.instagram.com/weronikazarzycka_fotografia/"
+                target="_blank"
+                class="btn-social-a"
+                ><ion-icon class="footer-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
