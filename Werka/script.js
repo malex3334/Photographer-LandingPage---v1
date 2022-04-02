@@ -32,3 +32,28 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// sections load animation trigger
+const sections = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    //   // Loop over the entries
+    entries.forEach((entry) => {
+      // If the element is visible
+
+      if (entry.isIntersecting) {
+        document;
+        entry.target.classList.add("show");
+        console.log(entry.target);
+      }
+    });
+  },
+  {
+    rootMargin: "-25% 0px -25% 0px",
+  }
+);
+
+sections.forEach((section) => {
+  observer.observe(section);
+});
